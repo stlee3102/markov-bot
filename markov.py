@@ -86,7 +86,7 @@ async def on_message(message):
     if message.author == client.user:
         return
     
-    if message.content.startswith('$yo'):
+    if message.content.startswith('yo'):
         await message.channel.send(make_text(chains))
 
 client.run(os.environ['DISCORD_TOKEN'])
