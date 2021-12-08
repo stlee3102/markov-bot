@@ -1,3 +1,10 @@
+#To use, source env/bin/activate
+#pip3 install discord.py
+#pip3 freeze > requirements.txt
+#cat requirements.txt
+#source secrets.sh
+#python3 markov.py
+
 """A Markov chain generator that can tweet random messages."""
 
 import os 
